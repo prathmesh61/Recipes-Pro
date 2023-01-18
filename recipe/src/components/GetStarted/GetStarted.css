@@ -1,0 +1,52 @@
+.getstarted {
+    background-color: bisque;
+    margin-top: 150px;
+    width: 100%;
+
+}
+
+.getstarted-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.GetImg {
+    width: 100%;
+    object-fit: cover;
+    flex: 1;
+}
+
+.get-heading-cont {
+    flex: 1;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: black;
+}
+
+.heading {
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: black;
+
+}
+
+.get-btn {
+    padding: 3px 10px;
+    min-width: 180px;
+    border-radius: 5px;
+    background-color: #7AD296;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
