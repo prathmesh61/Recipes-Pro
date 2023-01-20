@@ -1,7 +1,10 @@
 .getstarted {
     background-color: bisque;
-    margin-top: 150px;
+    margin-top: 100px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -9,20 +12,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1000px;
-    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 8px 16px;
 
 }
 
 .GetImg {
-    width: 100%;
+    width: 300px;
     object-fit: cover;
-    flex: 1;
 }
 
-.get-heading-cont {
+/* .get-heading-cont {
     flex: 1;
-}
+} */
 
 .title {
     font-size: 1.4rem;

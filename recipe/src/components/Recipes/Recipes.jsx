@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
+import { Link } from "react-router-dom";
+
 import './Recipes.css'
 
 const Recipes = () => {
@@ -26,7 +28,7 @@ const Recipes = () => {
     //     e.preventDefault()
     //     searchRecipe()
     // }
-    console.log(search);
+    console.log(recipe);
 
     return (
         <div className="recipes mx-auto">
@@ -45,7 +47,7 @@ const Recipes = () => {
                         <div className="single-recipe" key={item.id}>
                             <img className='single-recipe-img' src={item.strMealThumb} alt="thumbnail" />
                             <p className='single-recipe-title'>{item.strMeal.slice(0, 20) + "..."}</p>
-                            <button className='single-recipe-btn'>See More</button>
+
                         </div>
                     ))}
                 </div>
